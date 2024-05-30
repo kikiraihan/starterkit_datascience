@@ -54,6 +54,8 @@ g.selection_policy = bmod.graphs.NodesAndLinkedEdges()
 p.renderers.append(g)
 
 # ===========================================================================
+# yang ini kodenya
+# ===========================================================================
 # CustomJS callback untuk mengubah ukuran node berdasarkan zoom level
 callback = CustomJS(args=dict(g=g, p=p), code="""
     var x_range = p.x_range;
